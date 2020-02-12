@@ -3,11 +3,12 @@
   <head>
    <!-- https://www.templatemonster.com/ru/demo/65991.html   http://www.seomark.ru/gallery3.html-->
     <meta charset=UTF-8>
-    <title>HAIR</title>
-    <script src="slide.js"></script>
+    <title>HAIR CARE</title>
+    <script src="http://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
     <link rel='stylesheet' href='style.css' type='text/css'>
+    <script src="slide.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Marck+Script|Rubik+Mono+One|Source+Sans+Pro&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
 
   </head>
@@ -35,21 +36,21 @@
        <div class="clear"></div>
      </div>
 
-      <div class='slides'>
-        <div class='slide showing'><img src='images/220213.jpeg'>
+     <div id="slider" class='slides'>
+        <div class="slide" class="active"><img src='images/220213.jpeg'>
           <div class='UP'><p id='Fir'>Найди своего мастера</p><p id='Sec'>Прямо сейчас</p>
           <p id='Third'>Cделайте ваши волосы важной частью выражения вашей индивидуальности! Наши опытные специалисты позаботятся о том, чтобы вы получили именно тот образ, который вам подходит!</p>
           <div class='Button'><a href=''>Узнать больше</a></div></div>
        </div>
 
-        <div class='slide'><img src='images/220211.jpg'>
+        <div class="slide"><img src='images/220211.jpg'>
           <div class='UP'><p id='Fir'>Твой образ</p><p id='Sec'>Сервисы</p>
           <p id='Third'>Подчеркнуть красоту ваших волос можно разными способами. Стрижка, окраска, тонирование - отличные способы изменить ваш внешний вид быстро и надолго.
 </p>
            <div class='Button'><a href=''>Узнать больше</a></div></div>
         </div>
 
-        <div class='slide'><img src='images/220209.jpg'>
+        <div class="slide"><img src='images/220209.jpg'>
           <div class='UP'><p id='Fir'>Красота волос</p><p id='Sec'>Уход за волосами</p>
           <p id='Third'>Предлагаем различные процедуры, который позволяют улучшить состояние волос, придать им блеск и пышность, вернуть густоту, устранить сухость и сечение на кончиках, жирность у корней.
 </p>
@@ -95,15 +96,15 @@
   </div>
 
 <div class="gallery">
-<a href="images/30big.jpg" rel="lightbox-one"><img src="images/30-mini.jpg" /></a> 
-<a href="images/31-big.jpg" rel="lightbox-one"><img src="images/31-mini.jpg" /></a> 
-<a href="images/28-big.jpg" rel="lightbox-one"><img src="images/28-mini.jpg" /></a> 
-<a href="images/9-big.jpg" rel="lightbox-one"><img src="images/9-mini.jpg" /></a> 
-<a href="images/18-big.jpg" rel="lightbox-one"><img src="images/18-mini.jpg" /></a>
-<a href="images/19-big.jpg" rel="lightbox-one"><img src="images/19-mini.jpg" /></a> 
-<a href="images/26-big.jpg" rel="lightbox-one"><img src="images/26-mini.jpg" /></a> 
-<a href="images/32-big.jpg" rel="lightbox-one"><img src="images/32-mini.jpg" /></a> 
-<a href="images/37-big.jpg" rel="lightbox-one"><img src="images/37-mini.jpg" /></a> 
+<a href="images/30big.jpg"><img src="images/30-mini.jpg" /></a> 
+<a href="images/31-big.jpg"><img src="images/31-mini.jpg" /></a> 
+<a href="images/28-big.jpg"><img src="images/28-mini.jpg" /></a> 
+<a href="images/9-big.jpg"><img src="images/9-mini.jpg" /></a> 
+<a href="images/18-big.jpg"><img src="images/18-mini.jpg" /></a>
+<a href="images/19-big.jpg"><img src="images/19-mini.jpg" /></a> 
+<a href="images/26-big.jpg"><img src="images/26-mini.jpg" /></a> 
+<a href="images/32-big.jpg"><img src="images/32-mini.jpg" /></a> 
+<a href="images/37-big.jpg"><img src="images/37-mini.jpg" /></a> 
 </div>
 
   <div class='Price'>
@@ -156,18 +157,7 @@
     </div>
   </div>
 
-<script type="text/javascript" src="scripts/jquery-1.2.6.js"></script>
-<script type="text/javascript" src="scripts/jquery.lightbox.js"></script>
-<link rel="stylesheet" type="text/css" href="scripts/lightbox.css" />
-<script type="text/javascript">
-$(document).ready(function(){
-$("gallery a").lightbox(); // Выбор всех ссылок, содержащих lightbox в атрибуте rel
-$.Lightbox.construct({
-"speed": 500, // скорость разворачивания изображений (мс)
-"opacity": 0.5, // прозрачность фона (от 0 до 1)
-});
-});
-</script>
+
   </body>
 </html>  
 
