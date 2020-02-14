@@ -16,15 +16,8 @@ $(function () {
 		}			
 		change ();
 	}	
-	var interval = setInterval(autoCange, 1000);
+	var interval = setInterval(autoCange, 3000);
 
-	elements.mouseover(function() {
-		clearInterval(interval);
-	});
-	elements.mouseout(function() {
-		interval = setInterval(autoCange, 3000);
-	});
-	
 	elements.append('<span class="next"></span><span class="prev"></span>');
 	
 	$('span.next').click(function() {
